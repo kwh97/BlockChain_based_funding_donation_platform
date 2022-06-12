@@ -2,7 +2,7 @@
 <h3>블록체인과 크라우드 펀딩의 만남, 새로운 기부 문화를 만들다.</h3>
 <h4>&nbsp - 블록체인과 크라우드 펀딩의 결합, 투명성과 접근성을 모두 잡다.</h4><br>
 <h3>세종대학교 전자정보통신공학과 2022/1학기 멀티미디어 설계 8조 팀 프로젝트</h3><br>
-<img src="https://user-images.githubusercontent.com/82254874/172803515-706ca2e9-577c-4228-b176-b95c13e8681b.png" style="width: 700px"/>
+<img src="https://user-images.githubusercontent.com/82254874/173244059-2df100f2-66db-461e-9129-f2344891c212.jpg" style="width: 700px"/>
 <br><br>
 
 🛠<strong> 사용 툴 및 참고</strong>🛠   
