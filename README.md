@@ -1,4 +1,4 @@
-<div style="display: flex"><img src="https://user-images.githubusercontent.com/82254874/173244440-b6417f0c-fa99-435e-b265-6a85eda1b416.png" style="width: 50px"><h1>블록네이션: 블록체인 기반 기부형 펀딩 플랫폼</h1></div>
+<h1><img src="https://user-images.githubusercontent.com/82254874/173244440-b6417f0c-fa99-435e-b265-6a85eda1b416.png" style="width: 50px, margin-top: 20px">블록네이션: 블록체인 기반 기부형 펀딩 플랫폼</h1>>
 <h3>블록체인과 크라우드 펀딩의 만남, 새로운 기부 문화를 만들다.</h3>
 <h4>&nbsp - 블록체인과 크라우드 펀딩의 결합, 투명성과 접근성을 모두 잡다.</h4><br>
 <h3>세종대학교 전자정보통신공학과 2022/1학기 멀티미디어 설계 8조 팀 프로젝트</h3><br>
