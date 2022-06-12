@@ -7,7 +7,7 @@
 
 🛠<strong> 사용 툴 및 참고</strong>🛠   
 
-<img src="https://img.shields.io/badge/VisualStudioCode-32AAFF?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Ganache-brown?style=flat-square&logo=Ganache&logoColor=white"/> <img src="https://img.shields.io/badge/BlockChain-black?style=flat-square&logo=blockchain&logoColor=white"/> <img src="https://img.shields.io/badge/Ethereum-blue?style=flat-square&logo=ethereum&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/VisualStudioCode-32AAFF?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Ganache-FF8C0A?style=flat-square&logo=Ganache&logoColor=white"/> <img src="https://img.shields.io/badge/BlockChain-black?style=flat-square&logo=blockchain&logoColor=white"/> <img src="https://img.shields.io/badge/Ethereum-blue?style=flat-square&logo=ethereum&logoColor=white"/> <br>
 
 
 <br>
