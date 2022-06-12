@@ -7,14 +7,14 @@
 
 🛠<strong> 사용 툴 및 참고</strong>🛠   
 
-<img src="https://img.shields.io/badge/VisualStudioCode-32AAFF?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/ganache-brown?style=flat-square&logo=Ganache&logoColor=white"/> <img src="https://img.shields.io/badge/BlockChain-black?style=flat-square&logo=blockchain&logoColor=white"/> <img src="https://img.shields.io/badge/Ethereum-orange?style=flat-square&logo=ethereum&logoColor=white"/> <br>
+<img src="https://img.shields.io/badge/VisualStudioCode-32AAFF?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/GANACHE-brown?style=flat-square&logo=Ganache&logoColor=white"/> <img src="https://img.shields.io/badge/BlockChain-black?style=flat-square&logo=blockchain&logoColor=white"/> <img src="https://img.shields.io/badge/Ethereum-blue?style=flat-square&logo=ethereum&logoColor=white"/> <br>
 
 
 <br>
 
 👨‍💻<strong> 사용 기술 스택 </strong>👨‍💻
 
-<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JAVASCRIPT-yellow?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/WEB3.JS-yellow?style=flat-square&logo=web3.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JAVASCRIPT-yellow?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/WEB3.JS-green?style=flat-square&logo=web3.js&logoColor=white"/>
 
 <br>
 
