@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>수령여부 입력 페이지: 수혜자</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="./blockchain.png" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>수령여부 입력 페이지(수혜자 전용)</h1>
+    </div>
+    <div class="content">
+      <form id="todo-form">
+        <div>
+          <label for="todo-input">해시 확인</label>
+          <input type="text" id="todo-input" />
+        </div>
+        <button class="submit">확인</button>
+      </form>
+      <p id="msg">유효하지 않은 해시입니다</p>
+      <ul id="todo-list">
+      </ul>
+    </div>
+    <script
+      type="text/javascript"
+      src="./bower_components/crypto-js/crypto-js.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+      integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>

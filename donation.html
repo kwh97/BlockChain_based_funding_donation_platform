@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Kenneth Hu" />
+    <title>[펀딩 진행중] 가전 제품</title>
+    <link rel="stylesheet" type="text/css" href="css/donation.css" />
+    <link rel="icon" href="./blockchain.png" />
+    <script src="js/web3.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="container">
+        <div class="info-section">
+          <div class="contents">
+            <h1>[펀딩 진행중] 가전 제품</h1>
+            <img src="./image/se.jpg">
+            <h3>💸 달성률: <span id="object">20%</span></h3>
+            <progress class="progress" id="progress" value="2" max="10"></progress>
+            <div class="info">
+              <p>✔ 목표 금액: 10ETH</p>
+              <p>✔ 의뢰 기관(단체): 세종기부단체</p>
+              <p>✔ 계좌: 0x3f58Dd3Af7C6B6c13A07f6831C97e1A3e01943b7</p>
+              <p class="notice">📌 펀딩이 완료되지 못하는 경우, 모든 금액은 환불됩니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="donation-section">
+          <div class="contents">
+            <h1>펀딩하기</h1>
+            <hr />
+            <label for="name" class="label"
+              ><h3>Check Ganache program</h3></label
+            >
+            <input
+              class="input"
+              id="NodeInfo"
+              type="text"
+              placeholder="Ganache를 실행하여 연동해주세요."
+            />
+            <hr />
+            <label for="name" class="label"><h3>잔액 조회</h3></label>
+            <p>
+              계좌 번호 : &nbsp
+              <input
+                class="input"
+                id="Account"
+                type="text"
+                placeholder="먼저 Ganache와 연동하세요."
+              />
+            </p>
+            <p>
+              계좌 잔액 : &nbsp
+              <input
+                class="input"
+                id="Balance"
+                type="text"
+                placeholder="연동한 뒤, 조회하기 버튼을 눌러 잔액을 조회하세요."
+              />
+            </p>
+            <button id="checkBalance">조회하기</button>
+            <hr />
+            <label for="name" class="label"><h3>코인 송금</h3></label>
+            <p>
+              계좌 번호 : &nbsp
+              <input
+                class="input"
+                id="From"
+                type="text"
+                placeholder="계좌 번호를 다시 입력하세요."
+              />
+            </p>
+            <p>
+              입금 계좌 : &nbsp
+              <input
+                class="input"
+                id="To"
+                type="text"
+                placeholder="좌측의 입금 계좌를 확인후 입력하세요."
+              />
+            </p>
+            <p>
+              송금 금액 : &nbsp
+              <input
+                class="input"
+                id="Amount"
+                type="text"
+                placeholder="송금할 코인의 개수를 입력해주세요."
+              />
+            </p>
+            <button id="Transfer">송금하기</button>
+            <button class="receipt" id="receipt">🧾 영수증 조회</button>
+            <p>Hash : &nbsp <span id="Tx"></span></p>
+            <div class="modal">
+              <div class="modal_body">
+                <h1>영 수 증</h2>
+                <h5>사업자: 블록네이션</h5>
+                <h5>대표자: 멀티미디어 설계 8조</h5>
+                <hr>
+                <h4 id="checkHash">✔ Transaction hash가 정상적으로 생성되지 않았습니다.</h4>
+                <h4 id="myAccount">✔ 계좌 번호: &nbsp먼저 송금을 진행하세요.</h4>
+                <h4 id="receiverAccount">✔ 입금 계좌: &nbsp먼저 송급을 진행하세요.</h4>
+                <h4 id="senderAmount">✔ 송금 금액: &nbsp먼저 송급을 진행하세요.</h4>
+                <h4>✔ 의뢰 기관: &nbsp세종기부단체</h4>
+                <hr>
+                <h4>📌 창 외부의 여백을 클릭하면, 팝업창이 종료됩니다.</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="content">
+          <div class="title">
+            <h3>블록네이션, 블록체인과 크라우드 펀딩의 만남.</h3>
+            <h5>세종대학교 / 전자정보통신공학과 / Multimedia Design 8th Team</h5>
+          </div>
+          <div class="copyright">
+            <h5>CONTACT : Multimedia Design 8th Team</h5>
+            <h5>COPYRIGHT 2022. MULTIMEDIA 8TH TEAM. ALL RIGHTS RESERVED.
+              DESIGNED BY JANGHWAN KWON.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/donation.js" />
+    <script src="js/progress.js"></script>
+  </body>
+</html>

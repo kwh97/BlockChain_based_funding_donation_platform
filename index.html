@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="icon" href="./blockchain.png" />
+    <title>블록 네이션: 블록체인과 기부의 만남</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <img src="./blockchain.png" />
+        <h2 class="title">블록네이션: 블록체인과 기부의 만남</h2>
+        <nav class="navbar">
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#team">TEAM / CONTACT</a>
+          </li>
+          <li>
+            <a href="./donator.html" title="수혜자 수령여부 확인하기"
+              >PROGRESS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/kwh97"
+              title="프로젝트를 위해 작성된 코드 보러가기"
+            >
+              GITHUB
+            </a>
+          </li>
+        </nav>
+        <div class="button">
+          <button class="funding" onclick="location.href='list.html'">
+            💸 지금 펀딩하기
+          </button>
+        </div>
+      </div>
+      <div class="background">
+        <div class="main">
+          <div class="contents">
+            <h2>블록체인 기반 기부형 펀딩 플랫폼</h2>
+            <p id="dynamic" class="lg-text"></p>
+          </div>
+          <div class="contents_img">
+            <img src="./image/chain3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h1>ABOUT</h1>
+        <p>📌 블록체인과 크라우드 펀딩의 결합, 투명성과 접근성을 모두 잡다.</p>
+        <ul class="first_ul">
+          <li class="about_img">
+            <img src="./image/eth.png" alt="" />
+            <img src="./image/ganache-seeklogo.com.svg" alt="" />
+          </li>
+          <li class="about_desc">
+            <h2>BLOCK CHAIN</h2>
+            <p class="sub_title">
+              최고의 투명성을 가진 블록체인,
+              <br />
+              새롭고 더욱 안전한 기부 문화를 구축하다.
+            </p>
+            <p class="sub_desc">
+              기존 기부 시스템은 기부기관의 신뢰도 문제로, 기부자로 하여금
+              외면받고 있었습니다.
+              <br />
+              하지만, 블록 체인 기반의 거래방식은 기존 기부기관의 중앙 관리
+              시스템을 없애고
+              <br />
+              거래의 투명성을 보장하기 때문에 기존의 신뢰도 문제를 효과적으로
+              해결합니다.
+            </p>
+          </li>
+        </ul>
+        <div class="center_img">
+          <img src="./image/plus2.png" />
+        </div>
+        <ul class="second_ul">
+          <li class="about_desc2">
+            <h2>CROWD FUNDING</h2>
+            <p class="sub_title2">
+              크라우드 펀딩의 장점을 활용하여,
+              <br />
+              더욱 접근성이 낮은 기부 방식을 제공하다.
+            </p>
+            <p class="sub_desc2">
+              보상을 조건으로 하지 않는 기부형 펀딩 방식을 기반으로 모금을
+              진행합니다.
+              <br />
+              이를 통해 기부단체와 기부자 간의 연결을 보다 쉽게 하며, 금액에
+              상관없이
+              <br />
+              모금을 받아 기존 방식보다 기부의 접근성을 낮춥니다.
+            </p>
+          </li>
+          <li class="about_img2">
+            <img class="second_img" src="./image/crowd2.png" alt="" />
+            <img class="first_img" src="./image/funding.png" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div class="fundingList">
+        <p>지금 바로 펀딩하세요.</p>
+        <h3>
+          📌 아래의 목록은 예시 목록 입니다. 실제 펀딩을 진행하려면 우측 상단의
+          버튼을 통해 진행하세요.
+        </h3>
+        <ul>
+          <li>
+            <div class="funding-img">
+              <img class="tv" src="./image/se.jpg" />
+            </div>
+            <div class="funding-contents">
+              <p>[기부 진행중] 목표 금액: 10 ETH</p>
+              <p>가전제품 / 주관: 세종기부단체</p>
+            </div>
+          </li>
+          <li class="second-child">
+            <div class="funding-img">
+              <img src="./image/donation.jpg" />
+            </div>
+            <div class="funding-contents">
+              <p>[기부 진행중] 목표 금액: 30 ETH</p>
+              <p>금액 기부 / 주관: 광진기부단체</p>
+            </div>
+          </li>
+          <li>
+            <div class="funding-img">
+              <img src="./image/box.png" alt="" />
+            </div>
+            <div class="funding-contents">
+              <p>[기부 진행중] 목표 금액: 3ETH</p>
+              <p>물품 전달 / 주관: 세종기부단체</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="team" id="team">
+        <div class="team_contents">
+          <h1>TEAM</h1>
+          <h4>📌프로젝트 팀원 소개</h4>
+          <ul class="first_line">
+            <li>
+              <img src="./image/17010745.jpg" alt="" />
+              <h2>권 장 환</h2>
+              <h3>17010745</h3>
+              <h4>Project Developer<br />블록체인 및 웹 개발 담당</h4>
+            </li>
+            <li>
+              <img src="./image/16010928.jpg" alt="" />
+              <h2>서 동 균</h2>
+              <h3>16010928</h3>
+              <h4>Project Leader<br />프로젝트 PPT, 기획, 중간 발표</h4>
+            </li>
+            <li>
+              <img src="./image/17010756.jpg" alt="" />
+              <h2>손 동 녘</h2>
+              <h3>17010756</h3>
+              <h4>Project Developer<br />블록체인 개발, 최종 발표</h4>
+            </li>
+            <li>
+              <img src="./image/17010702.jpg" alt="" />
+              <h2>이 동 진</h2>
+              <h3>17010702</h3>
+              <h4>Project Manager<br />프로젝트 PPT, 기획 담당</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <ul>
+          <li class="first">
+            <div class="title">
+              <img src="./blockchain.png" />
+              <h2>블록네이션: 블록체인과 기부의 만남</h2>
+            </div>
+            <h3>블록체인과 크라우드 펀딩의 만남, 새로운 기부 문화를 만들다.</h3>
+          </li>
+          <li class="second">
+            <h3>멀티미디어 설계 8조</h3>
+            <h3>서동균, 권장환, 손동녘, 이동진</h3>
+          </li>
+          <li class="third">
+            <h3>COPYRIGHT 2022. MULTIMEDIA 8TH TEAM. ALL RIGHTS RESERVED.</h3>
+            <h3>DESIGNED BY JANGHWAN KWON</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="./js/home.js"></script>
+</html>

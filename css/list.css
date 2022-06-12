@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* {
+	list-style: none;
+}
+
+body {
+	background-color: #ececec;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.wrap {
+	display: flex;
+	justify-content: center;
+
+}
+
+.container > ul {
+	display: flex;
+}
+
+.container > ul > li {
+	margin-right: 20px;
+	width: 290px;
+	height: 400px;
+	background-color: #f6f6f6;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border: 1px solid #DEDEDE;
+	border-radius: 10px;
+}
+
+.container > ul > li > img {
+	width: 290px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container > .first-section > li > button {
+	width: 250px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border-radius: 10px;
+	border: 1px solid #DEDEDE;
+	background-color:#36c2ba;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: white;
+	font-size: 18px;
+}
+
+.container > ul > li > button:hover {
+	box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.25);
+	transition: all, 0.4s;
+	cursor: pointer;
+}
+
+.container > ul > li > h3 {
+	padding-left: 20px;
+}
+
+.container > ul > li > h4 {
+	padding-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.container > ul > li > progress {
+	margin-left: 20px;
+	width: 250px;
+	height: 30px;
+	margin-top: -50px;
+}
+
+.container > .second-section > li {
+	height: 250px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border: 1px solid #DEDEDE;
+}
+
+.container > .second-section > li > h3 {
+	margin-top: 5px;
+}
+
+.buttons > button {
+	height: 70px;
+	width: 270px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #DEDEDE;
+	border-radius: 10px;
+	background-color:#ececec;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: black;
+	font-size: 20px;
+}
+
+.buttons > button:first-child {
+	margin-top: 10px;
+}
+
+.buttons > button > h4 {
+	margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer > .content {
+  width: 910px;
+	height: 100px;
+	margin-left: 20px;
+  display: flex;
+  background: #36c2ba;
+  color: #f6f6f6;
+  border-radius: 10px;
+  border: 1px solid #DEDEDE;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.footer > .content > .title {
+	margin-top: 7px;
+  margin-left: 20px;
+	width: 500px;
+}
+
+.footer > .content > .title > h3, .footer > .content > .title > h3 {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.footer > .content > .copyright {
+  margin-left: -20px;
+	margin-top: -6px;
+}
