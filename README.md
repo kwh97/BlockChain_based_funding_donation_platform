@@ -15,7 +15,7 @@
 
 👨‍💻<strong> 사용 기술 스택 </strong>👨‍💻
 
-<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JAVASCRIPT-yellow?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/WEB3.JS-green?style=flat-square&logo=web3.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML-red?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-blue?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JAVASCRIPT-yellow?style=flat-square&logo=javascript&logoColor=white"/> <img src="https://img.shields.io/badge/WEB3.JS-green?style=flat-square&logo=web3.js&logoColor=white"/> <img src="https://img.shields.io/badge/Crypto.js-purple?style=flat-square&logo=crypto&logoColor=white"/>
 
 <br>
 
